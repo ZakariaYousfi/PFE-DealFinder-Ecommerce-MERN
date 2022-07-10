@@ -1,0 +1,65 @@
+.vertical-menu {
+    margin-left: 150px;
+    margin-top: 20px;
+    background-color: $color-2;
+    width: 75%;
+    height: 320px;
+    overflow-y: scroll;
+    border-radius: 10px;
+
+    @media screen and(max-width: $laptop) {
+        justify-content: center;
+        margin-left: 150px;
+        width: 80%;
+        grid-template-columns: 60px 1fr;
+        margin: 10px auto 50px 70px;
+    }
+
+    @media screen and(max-width: 870px) {
+        justify-content: center;
+        margin-left: 150px;
+        width: 450px;
+        grid-template-columns: 60px 1fr;
+        margin: 10px auto 50px 65px;
+    }
+
+    @media screen and(max-width: $tablet) {
+        justify-content: center;
+        width: 95%;
+        grid-template-columns: 1fr;
+        margin: 10px auto 50px -5px;
+    }
+
+    @media screen and(max-width: $phone) {
+        justify-content: center;
+        width: 380px;
+        grid-template-columns: 1fr;
+        margin: 20px 10% 50px 25px;
+    }
+
+
+
+    .vertical-menu .cart-txt {
+        background-color: $color-5;
+        cursor: pointer;
+        color: $color-1;
+        display: block;
+        padding: 25px;
+        text-decoration: none;
+        border-radius: 10px;
+    }
+
+    .vertical-menu .cart-txt:hover {
+        background-color: #ccc;
+    }
+
+    .vertical-menu .cart-txt img {
+        transform: scale(0.8);
+        float: right;
+    }
+
+}
+
+.vertical-menu::-webkit-scrollbar {
+    display: none;
+}

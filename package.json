@@ -1,0 +1,34 @@
+{
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.2",
+    "connect": "^3.7.0",
+    "cookie-parse": "^0.4.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "email-validator": "^2.0.4",
+    "eslint": "^8.11.0",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.3",
+    "mongoose": "^6.2.6",
+    "multer": "^2.0.0-rc.1",
+    "nodemon": "^2.0.15",
+    "pusher": "^5.1.0-beta",
+    "react-moment": "^1.1.2",
+    "reactjs-popup": "^2.0.5",
+    "validator": "^13.7.0"
+  },
+  "name": "dealfinder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

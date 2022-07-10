@@ -1,0 +1,94 @@
+.cart-p-container {
+    margin-left: 3%;
+
+    .cart-page {
+        margin: 80px auto 0px 280px;
+        max-width: 1200px;
+
+
+        @media screen and(max-width: $laptop) {
+            grid-template-columns: 1fr;
+            margin: 80px auto 50px 100px;
+        }
+
+        @media screen and(max-width: $tablet) {
+            grid-template-columns: 1fr;
+            margin: 80px auto 50px 50px;
+        }
+
+        @media screen and(max-width: $phone) {
+            grid-template-columns: 1fr;
+            margin: 80px auto 50px 25px;
+        }
+
+        h1 {
+
+            @media screen and(max-width: $laptop) {
+                grid-template-columns: 1fr;
+                margin: 0px auto 0px 135px;
+            }
+
+            @media screen and(max-width: $tablet) {
+                grid-template-columns: 1fr;
+                margin: 0px auto 50px 35px;
+            }
+
+            @media screen and(max-width: $phone) {
+                grid-template-columns: 1fr;
+                margin: 0px auto 50px 20px;
+            }
+        }
+
+        .cart-container {
+            justify-content: center;
+            margin-top: 20px;
+            background-color: $color-2;
+            width: 70%;
+            height: 550px;
+            border-radius: 10px;
+
+            @media screen and(max-width: $laptop) {
+                justify-content: center;
+                width: 450px;
+                grid-template-columns: 60px 1fr;
+                margin: 40px auto 50px 100px;
+            }
+
+            @media screen and(max-width: $tablet) {
+                justify-content: center;
+                width: 80%;
+                grid-template-columns: 1fr;
+                margin: 0px auto 50px 30px;
+            }
+
+            @media screen and(max-width: $phone) {
+                justify-content: center;
+                width: 380px;
+                grid-template-columns: 1fr;
+                margin: 20px 10% 50px 25px;
+            }
+
+            .vertical-menu-fav .cart-txt {
+                background-color: $color-5;
+                cursor: pointer;
+                color: $color-1;
+                display: block;
+                padding: 25px;
+                text-decoration: none;
+                border-radius: 10px;
+            }
+
+            .vertical-menu-fav .cart-txt:hover {
+                background-color: #ccc;
+            }
+
+            .vertical-menu-fav .cart-txt img {
+                transform: scale(0.8);
+                float: right;
+            }
+        }
+
+
+
+    }
+}
